@@ -30,8 +30,7 @@ The project covers the full data science lifecycle:
 
 | Source                                                                      | What We Collect                                                            |
 | --------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| **[FBref.com](https://fbref.com)**                                          | Match-level stats: goals, xG, possession, shots, passes, defensive actions |
-| **[Wikipedia](https://en.wikipedia.org/wiki/FIFA_World_Cup_qualification)** | World Cup qualification results, group standings, confederation brackets   |
+| **[FBref.com](https://fbref.com)**                                          | Match-level stats: goals, xG, possession, shots, passes, defensive actions, World Cup qualification results, group standings, confederation brackets   |
 
 ### What Data We're Pulling
 
