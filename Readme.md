@@ -41,7 +41,7 @@ The project covers the full data science lifecycle:
 
 ### How the Scraping Works (Overview)
 
-Data is collected using `requests` and `BeautifulSoup` to parse FBref's match logs and Wikipedia's qualification tables. Raw data is exported as `.csv` files, then passed through a cleaning pipeline to handle missing values, normalize team names across sources, and standardize date formats before being handed off to workshop participants.
+Data is collected using `requests` and `BeautifulSoup` to parse FBref's match logs and qualification tables. Raw data is exported as `.csv` files, then passed through a cleaning pipeline to handle missing values, normalize team names across sources, and standardize date formats before being handed off to workshop participants.
 
 ---
 
@@ -128,7 +128,7 @@ Since upsets are **rare events** (~15–20% of matches), accuracy alone is misle
 | Library          | Purpose                            |
 | ---------------- | ---------------------------------- |
 | `requests`       | HTTP requests for scraping         |
-| `beautifulsoup4` | HTML parsing for Wikipedia & FBref |
+| `beautifulsoup4` | HTML parsing for FBref |
 | `pandas`         | Data manipulation and analysis     |
 | `numpy`          | Numerical operations               |
 
@@ -152,7 +152,7 @@ Since upsets are **rare events** (~15–20% of matches), accuracy alone is misle
 
 | Library   | Purpose                              |
 | --------- | ------------------------------------ |
-| `jupyter` | Notebook environment for workshops   |
+| `google-colab` | Notebook environment for workshops   |
 | `tqdm`    | Progress bars for data loops         |
 | `joblib`  | Model serialization (saving/loading) |
 
@@ -175,7 +175,7 @@ imbalanced-learn
 matplotlib
 seaborn
 plotly
-jupyter
+google-colab
 tqdm
 joblib
 ```
